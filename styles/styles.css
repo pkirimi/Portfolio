@@ -1,0 +1,106 @@
+:root {
+    --branding-color: #ffff;
+    --primary-color: black;
+    --secondary-color: blue;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+    color:var(--branding-color);
+}
+
+h3 {
+    color: var(--branding-color);
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: var(--branding-color);
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+#Home {
+
+    background: url('/Images/codingimage.png') no-repeat center center/cover;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    position: relative;
+    padding: 80px 20px; 
+    
+}
+
+p {
+    color: var(--branding-color);
+    line-height: 1.5;
+    
+}
+
+.btn-branding {
+    border-radius: 4px;
+    color: var(--branding-color);
+    font-size: 18px;
+    padding: 15px 30px;
+    line-height: 1.5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--branding-color); 
+}
+
+.body {
+    padding: 100px 120px;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+}
+
+li {
+    color: #ffff;
+    background-color: var(--primary-color);
+    padding: 15px 12px;
+}
+
+.content {
+    padding: 100px 120px;
+    background-color: var(--primary-color);
+}
+
+.image-fluid {
+    
+        width: 100%;
+        max-width: 300px; 
+        height: 200px; 
+        object-fit: cover; 
+        border-radius: 10px; 
+        transition: transform 0.3s ease; 
+    }
+
+
+
+a {
+    color: var(--branding-color);
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--branding-color);
+    
+    
+}
+
+a:hover {
+    color: var(--branding-color);
+}
